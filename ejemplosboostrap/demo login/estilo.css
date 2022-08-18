@@ -1,0 +1,86 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0px;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}:focus{outline:0px}body{margin:0px;padding:0px;font-family:"Lucida Grande",Arial,Helvetica,sans-serif;font-size:12px;-x-system-font:none;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:18px;}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:"" ""}
+
+.tuto-title
+{
+    font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+    background-color: #484848;
+    border-bottom:1px solid #EAEAEA;
+    font-size:1.5em;
+    font-weight:normal;
+    margin-bottom:15px;
+    padding:15px;
+    text-align:center;
+    color: #f4f4f4;
+}
+
+.tuto-dwld
+{
+    background-position:-126px 0px;
+    display:block;
+    height:16px;
+    position:absolute;
+    right:20px;
+    text-indent:-2000em;
+    top:16px;
+    width:127px;
+}
+
+.tuto-dwld:hover{ background-position: -126px -26px; }
+
+.tuto-logo
+{
+    width: 111px;
+    height: 32px;
+    display: block;
+    text-indent: -2000em;
+    background-position: 0px 0px;
+    position:absolute;
+    left: 20px;
+    top: 4px;
+}
+
+.tuto-logo:hover{ background-position: 0px -41px; }
+
+.tuto-dwld, .tuto-logo
+{
+    background-image: url( "tuto-iimages.gif" );
+}
+
+#tuto-cntd
+{
+    margin: 20px auto;
+    width: 980px;
+}
+
+
+
+
+
+label
+{
+    display: block;
+}
+
+input
+{
+    background: url("iconos.gif") no-repeat scroll 0 0 transparent;
+    border: 1px solid #BFBFBF;
+    color: #BFBFBF;
+    padding: 5px 5px 5px 25px;
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+input.submit
+{
+    width: auto;
+    background-position: 4px -84px;
+    background-color: #999999;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+input.user{ background-position: 4px -18px; }
+input.search{ background-position: 4px 5px; }
+input.password{ background-position: 4px -41px; }
+input.favorite{ background-position: 4px -63px; }
